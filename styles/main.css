@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+}
+
+h3{
+    font-family: "Oswald", sans-serif;
+}
+
+p{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 2vh;
+}
+
+ol{
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 25vh 25vh 25vh 25vh 35vh 55vh 110vh 20vh;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+}
+
+.navbar {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #111111;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-list{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+}
+
+.navbar-element {
+    float: left;
+}
+
+.navbar-link {
+    display: block;
+    color: darkgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 2vh;
+}
+
+.other-link{
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    color: darkgrey;
+}
+
+.navbar-link:hover {
+    background-color: #016B77;
+}
+
+.Homepage {
+    background-image: url("../images/Title_background.png");
+    background-size: 100vw;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.heading{
+
+    font-family: "Oswald", sans-serif;
+    font-size: 26vh;
+    text-align: center;
+    color: #DA2C38;
+    margin-top: 4vh;
+
+}
+
+.Button_box_Info{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: center;
+}
+
+.Button_box_Bookings{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+}
+
+.Info {
+        width: 15vw;
+        height: 15vh;
+        border: none;
+        text-align: center;
+        display: inline-block;
+        background-color: #111111;
+        color: darkgrey;
+        font-family: "Oswald", sans-serif;
+        font-size: 5vh;
+        border-radius: 8px;
+}
+
+.Bookings{
+
+        width: 15vw;
+        height: 15vh;
+        border: none;
+        text-align: center;
+        display: inline-block;
+        background-color: #111111;
+        color: darkgrey;
+        font-family: "Oswald", sans-serif;
+        font-size: 5vh;
+        border-radius: 8px;
+}
+
+.Info:Hover{
+    background-color: #016B77;
+}
+
+.Bookings:Hover{
+    background-color: #016B77;
+}
+
+.Information {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    color: darkgrey;
+    background-image: linear-gradient(to top, #94380c, #573100, #292000, #020200);
+    font-size: 2vh;
+    padding-top: 10vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.firstwords{
+    float: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 5vh;
+    color: #DA2C38;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.bio_block {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #94380c, #573100, #292000, #020200);
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.teacher_bios{
+    display: grid;
+    grid-auto-columns: 45vw;
+    grid-column-gap: 5vw;
+    grid-auto-flow: column;
+    color: #111111;
+    font-size: 2vh;
+}
+
+.bio{
+    color: darkgrey;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-shadow: 3px 3px 5px #020200;
+    background-color: #343434;
+}
+
+.headshot{
+
+    height: 15vh;
+
+    float: left;
+
+    margin-right: 1vw;
+
+    box-shadow: 3px 3px 5px #020200;
+  }
+
+.Class_info{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-image: linear-gradient(to bottom, #020200, #181e16, #1f372c, #1a514c, #016b77);
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: darkgrey;
+}
+
+.class_box{
+    display: grid;
+    grid-auto-columns: 18vw;
+    grid-column-gap: 1vw;
+    grid-auto-flow: column;
+    margin-top: 1vh;
+    color: #020200;
+}
+
+.class_details {
+    margin-left: 3vh;
+    float: left;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: #343434;
+    color: darkgrey;
+    box-shadow: 3px 3px 5px #020200;
+}
+
+#class_title, #teacher_title{
+    color: #DA2C38;
+}
+
+.Footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background-color: #016B77;
+    font-family: "Oswald", sans-serif;
+    font-size: 2vh;
+    color: darkgrey;
+    text-align: center;
+    padding-top: 9vh;
+}
