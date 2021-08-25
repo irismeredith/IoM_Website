@@ -12,7 +12,7 @@ from app.forms import ContactForm
 @app.route('/')
 @app.route('/index')
 def index():
-    return send_from_directory('static', 'index.html')
+    return redirect('/index.html')
 
 
 @app.route('/contact', methods=['GET', 'POST'])
@@ -40,6 +40,6 @@ def contact():
         # Emit some Javascript here to change the DOM and add a redirect link: I feel like that's probably more elegant
         # than loading another page
 
-        return redirect('http://localhost:63342/IoM_website/app/static/index.html?_ijt=t7irn5j7pg7nja99ljisqr5ss7')
+        return redirect('/index.html')
 
     return render_template('contact_form.html', title='Contact Us', form=form)
