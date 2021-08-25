@@ -1,1 +1,1 @@
-web: gunicorn IoM_website:app;
+web: gunicorn IoM:app;
