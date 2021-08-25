@@ -3,16 +3,14 @@ body {
     padding: 0;
 }
 
-h2{
+h2, h3{
     font-family: "Oswald", sans-serif;
-}
-
-h3{
-    font-family: "Oswald", sans-serif;
+    color: darkgrey;
 }
 
 p{
         font-family: "Roboto Thin", sans-serif;
+        color: darkgrey;
         font-size: 2vh;
 }
 
@@ -24,6 +22,23 @@ ol{
     display: grid;
     grid-template-rows: 25vh 25vh 25vh 25vh 35vh 55vh 110vh 20vh;
     grid-template-columns: 25vw 25vw 25vw 25vw;
+}
+
+button{
+        width: 15vw;
+        height: 15vh;
+        border: none;
+        text-align: center;
+        display: inline-block;
+        background-color: #111111;
+        color: darkgrey;
+        font-family: "Oswald", sans-serif;
+        font-size: 5vh;
+        border-radius: 8px;
+}
+
+button:Hover{
+        background-color: #016B77;
 }
 
 .navbar {
@@ -102,41 +117,6 @@ ol{
     text-align: center;
 }
 
-.Info {
-        width: 15vw;
-        height: 15vh;
-        border: none;
-        text-align: center;
-        display: inline-block;
-        background-color: #111111;
-        color: darkgrey;
-        font-family: "Oswald", sans-serif;
-        font-size: 5vh;
-        border-radius: 8px;
-}
-
-.Bookings{
-
-        width: 15vw;
-        height: 15vh;
-        border: none;
-        text-align: center;
-        display: inline-block;
-        background-color: #111111;
-        color: darkgrey;
-        font-family: "Oswald", sans-serif;
-        font-size: 5vh;
-        border-radius: 8px;
-}
-
-.Info:Hover{
-    background-color: #016B77;
-}
-
-.Bookings:Hover{
-    background-color: #016B77;
-}
-
 .Information {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -209,7 +189,6 @@ ol{
     flex-direction: column;
     padding-left: 2vw;
     padding-right: 2vw;
-    color: darkgrey;
 }
 
 .class_box{
