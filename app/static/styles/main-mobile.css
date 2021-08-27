@@ -163,15 +163,8 @@ button:Hover{
     padding-right: 2vw;
 }
 
-.class_box{
-    display: grid;
-    margin-top: 1vh;
-    color: #020200;
-}
-
 .class_details {
     margin-left: 3vh;
-    float: left;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
     background-color: #343434;
