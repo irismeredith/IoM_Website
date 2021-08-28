@@ -24,20 +24,23 @@ ol{
     grid-template-columns: 25vw 25vw 25vw 25vw;
 }
 
-button{
-        width: 15vw;
-        height: 15vh;
+.button_link {
         border: none;
         text-align: center;
         display: inline-block;
         background-color: #111111;
         color: darkgrey;
         font-family: "Oswald", sans-serif;
+        margin-bottom: 0;
         font-size: 5vh;
+        line-height: 1.428571429;
+        padding: 2vw 2vh;
         border-radius: 8px;
+        text-decoration: none;
+        vertical-align: middle;
 }
 
-button:Hover{
+.button_link:Hover{
         background-color: #016B77;
 }
 
@@ -82,7 +85,7 @@ button:Hover{
     background-color: #016B77;
 }
 
-.Homepage {
+#home {
     background-image: url("../images/Title_background.png");
     background-size: 100vw;
     grid-column-start: 1;

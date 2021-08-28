@@ -23,7 +23,7 @@ ol{
     flex-direction: column;
 }
 
-button{
+.button_link {
         width: 15vw;
         height: 15vh;
         border: none;
@@ -34,9 +34,11 @@ button{
         font-family: "Oswald", sans-serif;
         font-size: 5vh;
         border-radius: 8px;
+        text-decoration: none;
+        vertical-align: middle;
 }
 
-button:Hover{
+.button_link:Hover{
         background-color: #016B77;
 }
 
@@ -81,7 +83,7 @@ button:Hover{
     background-color: #016B77;
 }
 
-.Homepage {
+#home {
     background-image: url("../images/Title_background.png");
     background-size: 100vw;
 
