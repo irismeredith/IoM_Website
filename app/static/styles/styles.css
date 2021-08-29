@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: "Oswald", sans-serif;
+    color: #DA2C38;
+}
+
+p{
+    font-family: "Roboto Thin", sans-serif;
+    color: darkgrey;
+    font-size: 2vh;
+}
+
+ol{
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 2vh;
+    color: darkgrey;
+}
+
+.button_link {
+        border: none;
+        text-align: center;
+        display: inline-block;
+        background-color: #111111;
+        color: darkgrey;
+        font-family: "Oswald", sans-serif;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 2vh;
+        font-size: 5vh;
+        line-height: 1.428571429;
+        padding: 2vw 2vh;
+        border-radius: 8px;
+        text-decoration: none;
+        vertical-align: middle;
+}
+
+.button_link:Hover{
+        background-color: #016B77;
+}
+
+.navbar {
+    margin-top: 0;
+    background-color: #111111;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-list{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+}
+
+.navbar-element {
+    float: left;
+}
+
+.navbar-link {
+    display: block;
+    color: darkgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 2vh;
+}
+
+.other-link{
+    text-decoration: none;
+    font-family: "Roboto Thin", sans-serif;
+    color: darkgrey;
+}
+
+.navbar-link:hover {
+    background-color: #016B77;
+}
+
+#firstwords{
+    float: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 5vh;
+    color: #DA2C38;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.bio{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #343434;
+}
+
+#Footer{
+    background-color: #016B77;
+    font-family: "Oswald", sans-serif;
+    font-size: 5vh;
+    color: darkgrey;
+    text-align: center;
+    padding: 10vh 10vw 5vh 10vw;
+    margin-bottom: 0;
+}

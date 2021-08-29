@@ -1,0 +1,96 @@
+
+#flex-layout{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+
+#open-screen {
+    background-image: url("../images/Title_background.png");
+    background-size: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.button_link{
+    width: 60vw;
+    margin-bottom: 10vh;
+}
+
+#heading{
+
+    font-family: "Oswald", sans-serif;
+    font-size: 23vw;
+    color: #DA2C38;
+    margin-top: 0;
+}
+
+#information {
+    color: darkgrey;
+    background-image: linear-gradient(to top, #94380c, #573100, #292000, #020200);
+    padding: 10vh 10vw 10vh 10vw;
+}
+
+
+#bio_block {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #94380c, #573100, #292000, #020200);
+    padding-bottom: 5vh;
+}
+
+#teacher_title{
+    margin-left: 2vw;
+}
+
+#teacher_bios{
+    display: flex;
+    flex-direction: column;
+}
+
+.bio{
+    width: 89vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 1vw;
+    background-color: #343434;
+}
+
+.headshot{
+    height: 15vh;
+    float: left;
+    margin-right: 1vw;
+  }
+
+#classes{
+    background-image: linear-gradient(to bottom, #020200, #181e16, #1f372c, #1a514c, #016b77);
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#class_text{
+    margin-left: 1vw;
+}
+
+#class_box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    color: #020200;
+}
+
+.class_details {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    width: 92vw;
+    float: left;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: #343434;
+}
