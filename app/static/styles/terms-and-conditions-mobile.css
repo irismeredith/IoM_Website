@@ -3,22 +3,21 @@
 }
 
 #wrapper{
-    padding-bottom: 5vh;
+
 }
 
 #flex-layout-tc{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 98vw;
-    height: 100vh;
 }
 
 #content-block-tc{
     background-color: rgba(93, 83, 147, 0.3);
     width: 70vw;
-    margin-top: 30vh;
+    margin-top: 15vh;
     padding-left: 3vw;
     padding-right: 3vw;
 }
