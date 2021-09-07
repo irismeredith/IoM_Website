@@ -1,13 +1,7 @@
-
-#flex-layout{
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-start;
-}
-
 #open-screen {
     background-image: url("../images/Title_background_very_small.png");
     background-size: 100vw;
+    background-repeat: no-repeat;
     min-height: 100vh;
     text-align: center;
     padding-top: 10vh;
@@ -28,7 +22,6 @@
 
 #information {
     color: darkgrey;
-    background-image: linear-gradient(to top, #94380c, #573100, #292000, #020200);
     padding: 10vh 10vw 10vh 10vw;
 }
 
@@ -36,7 +29,6 @@
 #bio_block {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, #94380c, #573100, #292000, #020200);
     padding-bottom: 5vh;
 }
 
@@ -66,7 +58,6 @@
   }
 
 #classes{
-    background-image: linear-gradient(to bottom, #020200, #181e16, #1f372c, #1a514c, #016b77);
     display: flex;
     flex-direction: column;
     padding-left: 1vw;
