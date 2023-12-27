@@ -10,4 +10,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     TEMPLATES_AUTO_RELOAD = True
     SEND_FILE_MAX_AGE_DEFAULT = 0
-    ADMINS = ['irishenceaway@gmail.com']
+    ADMINS = ['nice.try@credentials.com']
